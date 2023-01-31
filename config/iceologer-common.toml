@@ -1,0 +1,24 @@
+
+[general]
+	#
+	#Biome name where Iceologer should spawn
+	biome_name = "minecraft:snowy_taiga,minecraft:snowy_slopes,minecraft:frozen_peaks,minecraft:jagged_peaks,minecraft:snowy_beach,minecraft:snowy_plains,minecraft:ice_spikes,minecraft:frozen_ocean,minecraft:frozen_river"
+
+	#Spawn rate settings
+	[general.spawnrate]
+
+		#Iceologer
+		[general.spawnrate.iceologer]
+			#Spawn Chance
+			#Range: > 0
+			weight = 20
+			#Monster Spawn Minimum Number
+			#Range: > 0
+			min = 1
+			#Monster Spawn Maximum Number
+			#Range: > 0
+			max = 3
+			#Time between Ice Chunk Summon
+			#Range: > 0
+			summon_interval = 40
+
